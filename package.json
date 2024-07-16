@@ -44,7 +44,7 @@
     "url": "git+https://github.com/W3Layouts/gatsby-starter-delog.git"
   },
   "scripts": {
-    "build": "gatsby build && gh-pages -b master -d public",
+    "build": "gatsby build && gh-pages -b main -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
